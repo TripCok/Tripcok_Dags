@@ -1,4 +1,4 @@
-from datetime import timedelta
+from datetime import timedelta, datetime
 
 from airflow import DAG
 from airflow.models import Variable as V
@@ -13,7 +13,9 @@ with DAG(
             'retries': 1,
             'retry_delay': timedelta(minutes=5),
         },
+        start_date=datetime(2024, 12, 24),  # start_date 추가
         schedule_interval="*/5 * * * *",
+        catchup=False,  # 과거 실행 방지
 ) as dag:
     def get_config_from_variables():
         return {
