@@ -83,3 +83,6 @@ with DAG(
         python_callable=run_auto_work_group_join_task,
         provide_context=True,
     )
+
+
+    auto_work_register_login_task >> auto_work_group_task >> auto_work_group_join_task >> auto_work_board_task
