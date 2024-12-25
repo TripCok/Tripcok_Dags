@@ -1,7 +1,7 @@
 import random
 import mysql.connector
 import requests
-from utils.db_utils import fetch_random_group_id, set_prefer_category
+from utils.db_utils import set_prefer_category
 from utils.generate_ import generate
 from faker import Faker
 
