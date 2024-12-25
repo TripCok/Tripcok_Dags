@@ -1,5 +1,5 @@
 DB_CONFIG = {
-    'host': '54.180.151.205',
+    'host': '172.31.10.59',
     'port': 3366,
     'user': 'tripcok',
     'password': 'tripcok1234',
