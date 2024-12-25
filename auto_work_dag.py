@@ -5,6 +5,8 @@ from airflow.models import Variable as V
 from airflow.operators.python import PythonOperator
 
 from utils.autowork_board_v2 import AutoWorkBoard
+from utils.autowork_register_login import AutoWorkByLoginRegister
+from utils.autowork_group import AutoWorkByGroup
 
 with DAG(
         dag_id='auto_work_dag',
@@ -39,5 +41,31 @@ with DAG(
     auto_work_board_task = PythonOperator(
         task_id="auto_work_board_task",
         python_callable=run_auto_work_board_task,
+        provide_context=True,
+    )
+
+
+    def run_auto_work_register_login_task(**kwargs):
+        config = get_config_from_variables()
+        api_manager = AutoWorkByLoginRegister(**config)
+        api_manager.run()
+
+
+    auto_work_register_login_task = PythonOperator(
+        task_id="auto_work_register_login_task",
+        python_callable=run_auto_work_register_login_task,
+        provide_context=True,
+    )
+
+
+    def run_auto_work_register_login_task(**kwargs):
+        config = get_config_from_variables()
+        api_manager = AutoWorkByGroup(**config)
+        api_manager.run()
+
+
+    auto_work_group_task = PythonOperator(
+        task_id="auto_work_group_task",
+        python_callable=run_auto_work_register_login_task,
         provide_context=True,
     )
