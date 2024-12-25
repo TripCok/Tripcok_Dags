@@ -6,7 +6,7 @@ from utils.generate_ import generate
 from faker import Faker
 
 
-class AutoWorkLoginRegister:
+class AutoWorkByLoginRegister:
     def __init__(self, **kwargs):
         self.server_host = kwargs.get('server_host', 'localhost')
         self.server_port = kwargs.get('server_port', '8000')
