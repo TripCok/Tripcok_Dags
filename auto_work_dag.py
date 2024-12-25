@@ -29,14 +29,14 @@ with DAG(
         }
 
 
-    def run_scenario_with_variables(**kwargs):
+    def run_auto_work_board_task(**kwargs):
         config = get_config_from_variables()
         api_manager = AutoWorkBoard(**config)
         api_manager.run_scenario()
 
 
-    run_scenario_task = PythonOperator(
-        task_id="run_api_scenario",
-        python_callable=run_scenario_with_variables,
+    auto_work_board_task = PythonOperator(
+        task_id="auto_work_board_task",
+        python_callable=run_auto_work_board_task,
         provide_context=True,
     )
