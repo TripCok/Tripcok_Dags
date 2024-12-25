@@ -4,8 +4,6 @@ import mysql.connector
 import requests
 from utils.db_config import DB_CONFIG
 
-api = 'http://tr-sv-1:9090/api/v1'
-
 session = requests.Session()
 fake = Faker('ko_KR')
 
@@ -14,7 +12,7 @@ memberId = None
 
 
 # 1. 로그인
-def login(email=None, password=None):
+def login(api, email=None, password=None):
     connection = None  # connection 변수를 초기화
     try:
         if not email or not password:
@@ -65,7 +63,7 @@ def login(email=None, password=None):
 
 
 # 2. 가입된 모임 목록 확인
-def get_my_groups(member_id):
+def get_my_groups(api, member_id):
     print(f"get_my_groups 호출: memberId={member_id}")  # 디버깅 로그
     response = session.get(api + '/group/my', params={'memberId': member_id})
     if response.status_code == 200:
@@ -96,7 +94,7 @@ def choose_random_group(member_id):
 
 
 # 4. 선택된 모임의 게시판 확인
-def get_group_board(group_id):
+def get_group_board(api, group_id):
     response = session.get(api + '/posts', params={'groupId': group_id})
     if response.status_code == 200:
         data = response.json()
@@ -115,12 +113,14 @@ def generate_random_text():
     content = " ".join([fake.catch_phrase() for _ in range(5)])
     return title, content
 
+
 def generate_random_comment():
     comment = " ".join([fake.catch_phrase() for _ in range(2)])
     return comment
 
+
 # 5. 게시판에 글 작성
-def create_travle_post(group_id, member_id):
+def create_travle_post(api, group_id, member_id):
     title, content = generate_random_text()
     post_data = {
         "title": title,
@@ -150,8 +150,9 @@ def update_board_with_new_posts(group_id, new_posts):
         board_posts = new_posts
     return board_posts
 
+
 # 7. 게시판 글에 댓글 작성
-def post_comment(post_id, group_id, member_id, content=None):
+def post_comment(api, post_id, group_id, member_id, content=None):
     if content is None:
         content = generate_random_comment()  # 댓글 내용이 없으면 랜덤 생성
 
@@ -172,6 +173,8 @@ def post_comment(post_id, group_id, member_id, content=None):
 
 
 def run():
+    api = 'http://tr-sv-1:9090/api/v1'
+
     print("==시나리오 시작==")
 
     # 1. 로그인
@@ -221,14 +224,12 @@ def run():
             new_posts.append(new_post)  # 새 게시글 추가
             print(f"게시판에 작성된 글 ID: {new_post['postId']}, 제목: {new_post['title']}")
 
-
         post_id = new_post.get('postId')
         post_title = new_post.get('title')
         post_content = new_post.get('content')
         print(f"게시판에 작성된 글 ID: {post_id}")
         print(f"작성된 글 제목: {post_title}")
         print(f"작성된 글 내용: {post_content}")
-
 
     # 게시판 상태를 새로 업데이트
     board_posts = update_board_with_new_posts(group_id, new_posts)
@@ -250,4 +251,3 @@ def run():
                 print(f"댓글 작성 완료 - 게시글 ID: {post_id}, 댓글 내용: {comment_content}")
 
     print("\n=== 시나리오 종료 ===")
-
