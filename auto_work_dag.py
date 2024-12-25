@@ -7,6 +7,7 @@ from airflow.operators.python import PythonOperator
 from utils.autowork_board_v2 import AutoWorkBoard
 from utils.autowork_register_login import AutoWorkByLoginRegister
 from utils.autowork_group import AutoWorkByGroup
+from utils.autowork_group_join import AutoWorkByGroupJoin
 
 with DAG(
         dag_id='auto_work_dag',
@@ -58,7 +59,7 @@ with DAG(
     )
 
 
-    def run_auto_work_register_login_task(**kwargs):
+    def run_auto_work_group_task(**kwargs):
         config = get_config_from_variables()
         api_manager = AutoWorkByGroup(**config)
         api_manager.run()
@@ -66,6 +67,19 @@ with DAG(
 
     auto_work_group_task = PythonOperator(
         task_id="auto_work_group_task",
-        python_callable=run_auto_work_register_login_task,
+        python_callable=run_auto_work_group_task,
+        provide_context=True,
+    )
+
+
+    def run_auto_work_group_join_task(**kwargs):
+        config = get_config_from_variables()
+        api_manager = AutoWorkByGroupJoin(**config)
+        api_manager.run()
+
+
+    auto_work_group_join_task = PythonOperator(
+        task_id="auto_work_group_join_task",
+        python_callable=run_auto_work_group_join_task,
         provide_context=True,
     )
