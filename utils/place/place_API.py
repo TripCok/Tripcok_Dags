@@ -29,17 +29,20 @@ def send_request_to_api(url, session):
     return response
 
 def login_random():
-    return random.randint(5,9)
+    return random.randint(1, 150)
 
 
 ### 특정 값의 확률을 설정한 랜덤 값 반환
 def place_random():
-    # 특정 값 (예: 180)의 선택 확률을 80%로 설정
-    return random.randint(1, 30500)  # 나머지 값은 1~179에서 랜덤
-
+        # 0.8의 확률로 180을 반환
+    if random.random() < 0.7:
+        return random.randint(30, 60)
+    # 0.2의 확률로 1~179 범위에서 랜덤한 값을 반환
+    else:
+        return random.randint(1, 179)
 if __name__ == "__main__":
 
-    login_csv_file = "./user_data.csv"
+    login_csv_file = "utils/place/user_data.csv"
     login_api_url = "http://52.79.199.83:9090/api/v1/member/login"
     
     
