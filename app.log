@@ -1,0 +1,760 @@
+2024-12-26 18:53:51,346 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:51,346 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:51,347 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:51,347 - INFO - Generated random value for login: 99
+2024-12-26 18:53:51,347 - INFO - Preparing request body for row: ['ujin86@example.com', 'V4VQG(sy%y']
+2024-12-26 18:53:51,347 - INFO - Sending login request.
+2024-12-26 18:53:51,384 - INFO - 로그인 성공!
+2024-12-26 18:53:51,385 - INFO - Generating random data for place request.
+2024-12-26 18:53:51,385 - INFO - Generated random value for place (1-179): 72
+2024-12-26 18:53:51,385 - INFO - Sending request to place API with value: 72
+2024-12-26 18:53:51,385 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/72
+2024-12-26 18:53:51,414 - INFO - Response: 200, {"id":72,"name":"가람오리구이","description":"Unknown","placeThumbnail":null,"address":"경기도 용인시 처인구 용담저수지 ...
+2024-12-26 18:53:51,414 - INFO - Place request was successful.
+2024-12-26 18:53:51,596 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:51,597 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:51,597 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:51,597 - INFO - Generated random value for login: 75
+2024-12-26 18:53:51,598 - INFO - Preparing request body for row: ['hyeonsughwang@example.com', 'EF^279Cof6']
+2024-12-26 18:53:51,598 - INFO - Sending login request.
+2024-12-26 18:53:51,625 - INFO - 로그인 성공!
+2024-12-26 18:53:51,626 - INFO - Generating random data for place request.
+2024-12-26 18:53:51,626 - INFO - Generated random value for place (30-60): 50
+2024-12-26 18:53:51,626 - INFO - Sending request to place API with value: 50
+2024-12-26 18:53:51,626 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/50
+2024-12-26 18:53:51,651 - INFO - Response: 200, {"id":50,"name":"가든파티 계양점","description":"가든파티 계양점은 계양산 입구 계양문화회관, 계양산장미원 인근에 있다. 버스나 지하철 등의 대중교통 이용...
+2024-12-26 18:53:51,652 - INFO - Place request was successful.
+2024-12-26 18:53:51,859 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:51,859 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:51,859 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:51,860 - INFO - Generated random value for login: 73
+2024-12-26 18:53:51,860 - INFO - Preparing request body for row: ['gyeonghyi67@example.com', '^SDpr5Jx8#']
+2024-12-26 18:53:51,860 - INFO - Sending login request.
+2024-12-26 18:53:51,889 - INFO - 로그인 성공!
+2024-12-26 18:53:51,889 - INFO - Generating random data for place request.
+2024-12-26 18:53:51,890 - INFO - Generated random value for place (1-179): 126
+2024-12-26 18:53:51,890 - INFO - Sending request to place API with value: 126
+2024-12-26 18:53:51,890 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/126
+2024-12-26 18:53:51,917 - INFO - Response: 200, {"id":126,"name":"가마솥찜","description":"Unknown","placeThumbnail":"http://tong.visitkorea.or.kr/cms/r...
+2024-12-26 18:53:51,918 - INFO - Place request was successful.
+2024-12-26 18:53:52,116 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:52,116 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:52,117 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:52,117 - INFO - Generated random value for login: 123
+2024-12-26 18:53:52,117 - INFO - Preparing request body for row: ['yeonghwan80@example.net', 'c)I8$AjpEH']
+2024-12-26 18:53:52,118 - INFO - Sending login request.
+2024-12-26 18:53:52,150 - INFO - 로그인 성공!
+2024-12-26 18:53:52,150 - INFO - Generating random data for place request.
+2024-12-26 18:53:52,151 - INFO - Generated random value for place (1-179): 125
+2024-12-26 18:53:52,151 - INFO - Sending request to place API with value: 125
+2024-12-26 18:53:52,151 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/125
+2024-12-26 18:53:52,176 - INFO - Response: 200, {"id":125,"name":"가마솥에누룽지","description":"밀양 얼음골에 있는 백숙 맛집이다. 바로 뒤편이 계곡이고 계곡을 보며 평상에서 식사할 수 있다. 여름철에...
+2024-12-26 18:53:52,176 - INFO - Place request was successful.
+2024-12-26 18:53:52,346 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:52,346 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:52,347 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:52,347 - INFO - Generated random value for login: 26
+2024-12-26 18:53:52,347 - INFO - Preparing request body for row: ['ogsun74@example.org', 'W*y98JQtl!']
+2024-12-26 18:53:52,347 - INFO - Sending login request.
+2024-12-26 18:53:52,371 - INFO - 로그인 성공!
+2024-12-26 18:53:52,372 - INFO - Generating random data for place request.
+2024-12-26 18:53:52,372 - INFO - Generated random value for place (30-60): 51
+2024-12-26 18:53:52,372 - INFO - Sending request to place API with value: 51
+2024-12-26 18:53:52,372 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/51
+2024-12-26 18:53:52,403 - INFO - Response: 200, {"id":51,"name":"가든포레스트","description":"Unknown","placeThumbnail":"http://tong.visitkorea.or.kr/cms/...
+2024-12-26 18:53:52,404 - INFO - Place request was successful.
+2024-12-26 18:53:52,555 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:52,556 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:52,556 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:52,556 - INFO - Generated random value for login: 46
+2024-12-26 18:53:52,556 - INFO - Preparing request body for row: ['jieungim@example.com', '(BGrS8btk3']
+2024-12-26 18:53:52,556 - INFO - Sending login request.
+2024-12-26 18:53:52,581 - INFO - 로그인 성공!
+2024-12-26 18:53:52,582 - INFO - Generating random data for place request.
+2024-12-26 18:53:52,582 - INFO - Generated random value for place (30-60): 40
+2024-12-26 18:53:52,582 - INFO - Sending request to place API with value: 40
+2024-12-26 18:53:52,582 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/40
+2024-12-26 18:53:52,613 - INFO - Response: 200, {"id":40,"name":"가덕한우정육점","description":"가덕한우정육점은 충청북도 청주시 상당구 남일면 두산리에 있다. 외관과 인테리어는 깔끔한 분위기다. 내부에는...
+2024-12-26 18:53:52,614 - INFO - Place request was successful.
+2024-12-26 18:53:52,776 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:52,776 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:52,777 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:52,777 - INFO - Generated random value for login: 37
+2024-12-26 18:53:52,777 - INFO - Preparing request body for row: ['hwangmiyeong@example.com', ')5#M6&NzaX']
+2024-12-26 18:53:52,777 - INFO - Sending login request.
+2024-12-26 18:53:52,804 - INFO - 로그인 성공!
+2024-12-26 18:53:52,805 - INFO - Generating random data for place request.
+2024-12-26 18:53:52,805 - INFO - Generated random value for place (30-60): 59
+2024-12-26 18:53:52,805 - INFO - Sending request to place API with value: 59
+2024-12-26 18:53:52,805 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/59
+2024-12-26 18:53:52,835 - INFO - Response: 200, {"id":59,"name":"가락옥토버페스트 캠핑축제","description":"전국 각지 농수산물이 모이는 서울시 송파구 가락몰 하늘공원에서 낭만있는 캠핑, 수제맥주와 바베큐...
+2024-12-26 18:53:52,835 - INFO - Place request was successful.
+2024-12-26 18:53:53,027 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:53,028 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:53,028 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:53,028 - INFO - Generated random value for login: 25
+2024-12-26 18:53:53,029 - INFO - Preparing request body for row: ['yeongsubag@example.net', 'ypQ7&U^mM%']
+2024-12-26 18:53:53,029 - INFO - Sending login request.
+2024-12-26 18:53:53,052 - INFO - 로그인 성공!
+2024-12-26 18:53:53,052 - INFO - Generating random data for place request.
+2024-12-26 18:53:53,052 - INFO - Generated random value for place (30-60): 41
+2024-12-26 18:53:53,052 - INFO - Sending request to place API with value: 41
+2024-12-26 18:53:53,053 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/41
+2024-12-26 18:53:53,079 - INFO - Response: 200, {"id":41,"name":"가데나 레스토랑","description":"가데나 레스토랑은 대전광역시 유성구 반석동에 있다. 현대적인 감각이 돋보이는 외관과 고급스러운 분위기를 ...
+2024-12-26 18:53:53,079 - INFO - Place request was successful.
+2024-12-26 18:53:53,239 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:53,239 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:53,240 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:53,240 - INFO - Generated random value for login: 133
+2024-12-26 18:53:53,241 - INFO - Preparing request body for row: ['tsim@example.net', '*8R9ynuW_C']
+2024-12-26 18:53:53,241 - INFO - Sending login request.
+2024-12-26 18:53:53,264 - INFO - 로그인 성공!
+2024-12-26 18:53:53,264 - INFO - Generating random data for place request.
+2024-12-26 18:53:53,265 - INFO - Generated random value for place (30-60): 59
+2024-12-26 18:53:53,265 - INFO - Sending request to place API with value: 59
+2024-12-26 18:53:53,265 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/59
+2024-12-26 18:53:53,290 - INFO - Response: 200, {"id":59,"name":"가락옥토버페스트 캠핑축제","description":"전국 각지 농수산물이 모이는 서울시 송파구 가락몰 하늘공원에서 낭만있는 캠핑, 수제맥주와 바베큐...
+2024-12-26 18:53:53,290 - INFO - Place request was successful.
+2024-12-26 18:53:53,454 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:53,454 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:53,455 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:53,455 - INFO - Generated random value for login: 121
+2024-12-26 18:53:53,455 - INFO - Preparing request body for row: ['areum15@example.org', '%qJBofm1w2']
+2024-12-26 18:53:53,456 - INFO - Sending login request.
+2024-12-26 18:53:53,481 - INFO - 로그인 성공!
+2024-12-26 18:53:53,481 - INFO - Generating random data for place request.
+2024-12-26 18:53:53,482 - INFO - Generated random value for place (30-60): 50
+2024-12-26 18:53:53,482 - INFO - Sending request to place API with value: 50
+2024-12-26 18:53:53,482 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/50
+2024-12-26 18:53:53,509 - INFO - Response: 200, {"id":50,"name":"가든파티 계양점","description":"가든파티 계양점은 계양산 입구 계양문화회관, 계양산장미원 인근에 있다. 버스나 지하철 등의 대중교통 이용...
+2024-12-26 18:53:53,509 - INFO - Place request was successful.
+2024-12-26 18:53:53,703 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:53,704 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:53,705 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:53,705 - INFO - Generated random value for login: 130
+2024-12-26 18:53:53,706 - INFO - Preparing request body for row: ['iyeeun@example.net', 'v+U2MqKn^!']
+2024-12-26 18:53:53,706 - INFO - Sending login request.
+2024-12-26 18:53:53,737 - INFO - 로그인 성공!
+2024-12-26 18:53:53,737 - INFO - Generating random data for place request.
+2024-12-26 18:53:53,737 - INFO - Generated random value for place (1-179): 35
+2024-12-26 18:53:53,737 - INFO - Sending request to place API with value: 35
+2024-12-26 18:53:53,737 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/35
+2024-12-26 18:53:53,763 - INFO - Response: 200, {"id":35,"name":"가덕도 연대봉","description":"가덕도는 부산에 속한 섬 중 가장 큰 섬으로 신석기시대부터 사람이 살았던 것으로 추정되며, 임진왜란과 일제...
+2024-12-26 18:53:53,764 - INFO - Place request was successful.
+2024-12-26 18:53:53,920 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:53,920 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:53,921 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:53,921 - INFO - Generated random value for login: 128
+2024-12-26 18:53:53,921 - INFO - Preparing request body for row: ['ccoe@example.net', '@WHiSN70^8']
+2024-12-26 18:53:53,921 - INFO - Sending login request.
+2024-12-26 18:53:53,949 - INFO - 로그인 성공!
+2024-12-26 18:53:53,949 - INFO - Generating random data for place request.
+2024-12-26 18:53:53,950 - INFO - Generated random value for place (30-60): 48
+2024-12-26 18:53:53,950 - INFO - Sending request to place API with value: 48
+2024-12-26 18:53:53,950 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/48
+2024-12-26 18:53:53,979 - INFO - Response: 200, {"id":48,"name":"가든카페 명천마루","description":"Unknown","placeThumbnail":"http://tong.visitkorea.or.kr/c...
+2024-12-26 18:53:53,980 - INFO - Place request was successful.
+2024-12-26 18:53:54,136 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:54,136 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:54,137 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:54,137 - INFO - Generated random value for login: 55
+2024-12-26 18:53:54,137 - INFO - Preparing request body for row: ['jungsui@example.net', '!3eMexlCZ#']
+2024-12-26 18:53:54,138 - INFO - Sending login request.
+2024-12-26 18:53:54,160 - INFO - 로그인 성공!
+2024-12-26 18:53:54,160 - INFO - Generating random data for place request.
+2024-12-26 18:53:54,160 - INFO - Generated random value for place (1-179): 1
+2024-12-26 18:53:54,160 - INFO - Sending request to place API with value: 1
+2024-12-26 18:53:54,160 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/1
+2024-12-26 18:53:54,183 - INFO - Response: 200, {"id":1,"name":"가가상점","description":"공주시 원도심에 자리잡은 가가상점은 공주 지역에서 활동하는 예술가 단체, 화가, 공방들이 기획하고 제작한 로컬 굿...
+2024-12-26 18:53:54,183 - INFO - Place request was successful.
+2024-12-26 18:53:54,339 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:54,339 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:54,339 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:54,340 - INFO - Generated random value for login: 78
+2024-12-26 18:53:54,340 - INFO - Preparing request body for row: ['minminji@example.org', '$YVtY%gFf0']
+2024-12-26 18:53:54,340 - INFO - Sending login request.
+2024-12-26 18:53:54,368 - INFO - 로그인 성공!
+2024-12-26 18:53:54,369 - INFO - Generating random data for place request.
+2024-12-26 18:53:54,369 - INFO - Generated random value for place (30-60): 59
+2024-12-26 18:53:54,369 - INFO - Sending request to place API with value: 59
+2024-12-26 18:53:54,369 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/59
+2024-12-26 18:53:54,398 - INFO - Response: 200, {"id":59,"name":"가락옥토버페스트 캠핑축제","description":"전국 각지 농수산물이 모이는 서울시 송파구 가락몰 하늘공원에서 낭만있는 캠핑, 수제맥주와 바베큐...
+2024-12-26 18:53:54,398 - INFO - Place request was successful.
+2024-12-26 18:53:54,560 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:54,560 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:54,560 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:54,561 - INFO - Generated random value for login: 66
+2024-12-26 18:53:54,561 - INFO - Preparing request body for row: ['rryu@example.net', 'f@3Z7b_pCQ']
+2024-12-26 18:53:54,561 - INFO - Sending login request.
+2024-12-26 18:53:54,586 - INFO - 로그인 성공!
+2024-12-26 18:53:54,587 - INFO - Generating random data for place request.
+2024-12-26 18:53:54,587 - INFO - Generated random value for place (30-60): 59
+2024-12-26 18:53:54,587 - INFO - Sending request to place API with value: 59
+2024-12-26 18:53:54,587 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/59
+2024-12-26 18:53:54,615 - INFO - Response: 200, {"id":59,"name":"가락옥토버페스트 캠핑축제","description":"전국 각지 농수산물이 모이는 서울시 송파구 가락몰 하늘공원에서 낭만있는 캠핑, 수제맥주와 바베큐...
+2024-12-26 18:53:54,615 - INFO - Place request was successful.
+2024-12-26 18:53:54,772 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:54,773 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:54,774 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:54,775 - INFO - Generated random value for login: 104
+2024-12-26 18:53:54,775 - INFO - Preparing request body for row: ['jinho55@example.org', '!23Dzcfsy_']
+2024-12-26 18:53:54,775 - INFO - Sending login request.
+2024-12-26 18:53:54,808 - INFO - 로그인 성공!
+2024-12-26 18:53:54,808 - INFO - Generating random data for place request.
+2024-12-26 18:53:54,808 - INFO - Generated random value for place (30-60): 46
+2024-12-26 18:53:54,808 - INFO - Sending request to place API with value: 46
+2024-12-26 18:53:54,809 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/46
+2024-12-26 18:53:54,832 - INFO - Response: 200, {"id":46,"name":"가든세계평화","description":"가든세계평화는 경상북도 청송군 진보면 신촌리에 있다. 세월의 흔적이 엿보이는 외관과 고풍스러운 분위기를 연출...
+2024-12-26 18:53:54,833 - INFO - Place request was successful.
+2024-12-26 18:53:55,024 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:55,025 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:55,026 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:55,026 - INFO - Generated random value for login: 17
+2024-12-26 18:53:55,026 - INFO - Preparing request body for row: ['gimsangho@example.org', 'c_)6HZqP(J']
+2024-12-26 18:53:55,026 - INFO - Sending login request.
+2024-12-26 18:53:55,066 - INFO - 로그인 성공!
+2024-12-26 18:53:55,067 - INFO - Generating random data for place request.
+2024-12-26 18:53:55,067 - INFO - Generated random value for place (1-179): 116
+2024-12-26 18:53:55,067 - INFO - Sending request to place API with value: 116
+2024-12-26 18:53:55,067 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/116
+2024-12-26 18:53:55,093 - INFO - Response: 200, {"id":116,"name":"가마솥국밥","description":"경남 거제시 동부면에 위치한 거제 가마솥국밥집은 일반 음식점에서 느낄 수 없는 깊은 맛을 자랑한다. 타지에서...
+2024-12-26 18:53:55,093 - INFO - Place request was successful.
+2024-12-26 18:53:55,349 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:55,349 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:55,350 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:55,350 - INFO - Generated random value for login: 49
+2024-12-26 18:53:55,350 - INFO - Preparing request body for row: ['gimjeongsu@example.com', 'CfR0PQYrz$']
+2024-12-26 18:53:55,350 - INFO - Sending login request.
+2024-12-26 18:53:55,376 - INFO - 로그인 성공!
+2024-12-26 18:53:55,376 - INFO - Generating random data for place request.
+2024-12-26 18:53:55,376 - INFO - Generated random value for place (1-179): 158
+2024-12-26 18:53:55,377 - INFO - Sending request to place API with value: 158
+2024-12-26 18:53:55,377 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/158
+2024-12-26 18:53:55,403 - INFO - Response: 200, {"id":158,"name":"가보정갈비","description":"경기도 수원시 팔달구 장다리로에 있는 규모가 큰 갈비 전문점이다. 가보정은 아름답고 큰집이라는 의미로 199...
+2024-12-26 18:53:55,403 - INFO - Place request was successful.
+2024-12-26 18:53:55,618 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:55,618 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:55,619 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:55,619 - INFO - Generated random value for login: 64
+2024-12-26 18:53:55,619 - INFO - Preparing request body for row: ['cgim@example.com', '#i(5CCepVw']
+2024-12-26 18:53:55,620 - INFO - Sending login request.
+2024-12-26 18:53:55,646 - INFO - 로그인 성공!
+2024-12-26 18:53:55,646 - INFO - Generating random data for place request.
+2024-12-26 18:53:55,646 - INFO - Generated random value for place (1-179): 70
+2024-12-26 18:53:55,647 - INFO - Sending request to place API with value: 70
+2024-12-26 18:53:55,647 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/70
+2024-12-26 18:53:55,678 - INFO - Response: 200, {"id":70,"name":"가람복집","description":"회식이나 단체 손님을 받을 수 있는 크고 작은 룸을 갖추고 있다. 품위 있는 코스요리는 물론이고 가볍게 즐길 수...
+2024-12-26 18:53:55,679 - INFO - Place request was successful.
+2024-12-26 18:53:55,842 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:55,842 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:55,843 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:55,843 - INFO - Generated random value for login: 12
+2024-12-26 18:53:55,843 - INFO - Preparing request body for row: ['hgang@example.com', '(5R@xlaLoo']
+2024-12-26 18:53:55,844 - INFO - Sending login request.
+2024-12-26 18:53:55,872 - INFO - 로그인 성공!
+2024-12-26 18:53:55,873 - INFO - Generating random data for place request.
+2024-12-26 18:53:55,873 - INFO - Generated random value for place (30-60): 44
+2024-12-26 18:53:55,873 - INFO - Sending request to place API with value: 44
+2024-12-26 18:53:55,873 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/44
+2024-12-26 18:53:55,899 - INFO - Response: 200, {"id":44,"name":"가드니아 제빵소 본점","description":"﻿ 가드니아 제빵소 본점은 구리시 사노동에 있는 베이커리 카페이다. 자차 이용 시 내비게이션을 구리...
+2024-12-26 18:53:55,900 - INFO - Place request was successful.
+2024-12-26 18:53:56,097 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:56,097 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:56,098 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:56,098 - INFO - Generated random value for login: 140
+2024-12-26 18:53:56,098 - INFO - Preparing request body for row: ['cyun@example.com', '%FIaOBeEO9']
+2024-12-26 18:53:56,099 - INFO - Sending login request.
+2024-12-26 18:53:56,122 - INFO - 로그인 성공!
+2024-12-26 18:53:56,123 - INFO - Generating random data for place request.
+2024-12-26 18:53:56,123 - INFO - Generated random value for place (30-60): 59
+2024-12-26 18:53:56,123 - INFO - Sending request to place API with value: 59
+2024-12-26 18:53:56,123 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/59
+2024-12-26 18:53:56,149 - INFO - Response: 200, {"id":59,"name":"가락옥토버페스트 캠핑축제","description":"전국 각지 농수산물이 모이는 서울시 송파구 가락몰 하늘공원에서 낭만있는 캠핑, 수제맥주와 바베큐...
+2024-12-26 18:53:56,149 - INFO - Place request was successful.
+2024-12-26 18:53:56,317 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:56,317 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:56,318 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:56,318 - INFO - Generated random value for login: 133
+2024-12-26 18:53:56,318 - INFO - Preparing request body for row: ['tsim@example.net', '*8R9ynuW_C']
+2024-12-26 18:53:56,318 - INFO - Sending login request.
+2024-12-26 18:53:56,355 - INFO - 로그인 성공!
+2024-12-26 18:53:56,355 - INFO - Generating random data for place request.
+2024-12-26 18:53:56,355 - INFO - Generated random value for place (1-179): 176
+2024-12-26 18:53:56,355 - INFO - Sending request to place API with value: 176
+2024-12-26 18:53:56,356 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/176
+2024-12-26 18:53:56,385 - INFO - Response: 200, {"id":176,"name":"가산산성 문화유산 야행","description":"가산산성 야행은 가산산성의 역사·문화적 가치를 계승하고 발전할 수 있는 역사문화자원을 체험, 공...
+2024-12-26 18:53:56,385 - INFO - Place request was successful.
+2024-12-26 18:53:56,546 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:56,547 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:56,547 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:56,547 - INFO - Generated random value for login: 30
+2024-12-26 18:53:56,548 - INFO - Preparing request body for row: ['haeungim@example.com', 'zn3GRYk3^S']
+2024-12-26 18:53:56,548 - INFO - Sending login request.
+2024-12-26 18:53:56,577 - INFO - 로그인 성공!
+2024-12-26 18:53:56,577 - INFO - Generating random data for place request.
+2024-12-26 18:53:56,578 - INFO - Generated random value for place (30-60): 44
+2024-12-26 18:53:56,578 - INFO - Sending request to place API with value: 44
+2024-12-26 18:53:56,578 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/44
+2024-12-26 18:53:56,604 - INFO - Response: 200, {"id":44,"name":"가드니아 제빵소 본점","description":"﻿ 가드니아 제빵소 본점은 구리시 사노동에 있는 베이커리 카페이다. 자차 이용 시 내비게이션을 구리...
+2024-12-26 18:53:56,604 - INFO - Place request was successful.
+2024-12-26 18:53:56,778 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:56,778 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:56,778 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:56,778 - INFO - Generated random value for login: 119
+2024-12-26 18:53:56,779 - INFO - Preparing request body for row: ['ugim@example.net', 'q3YB6o)*^I']
+2024-12-26 18:53:56,779 - INFO - Sending login request.
+2024-12-26 18:53:56,805 - INFO - 로그인 성공!
+2024-12-26 18:53:56,805 - INFO - Generating random data for place request.
+2024-12-26 18:53:56,805 - INFO - Generated random value for place (30-60): 44
+2024-12-26 18:53:56,805 - INFO - Sending request to place API with value: 44
+2024-12-26 18:53:56,805 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/44
+2024-12-26 18:53:56,834 - INFO - Response: 200, {"id":44,"name":"가드니아 제빵소 본점","description":"﻿ 가드니아 제빵소 본점은 구리시 사노동에 있는 베이커리 카페이다. 자차 이용 시 내비게이션을 구리...
+2024-12-26 18:53:56,834 - INFO - Place request was successful.
+2024-12-26 18:53:57,003 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:57,004 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:57,004 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:57,004 - INFO - Generated random value for login: 139
+2024-12-26 18:53:57,004 - INFO - Preparing request body for row: ['seonghogim@example.org', 'q^2@FNazDl']
+2024-12-26 18:53:57,004 - INFO - Sending login request.
+2024-12-26 18:53:57,034 - INFO - 로그인 성공!
+2024-12-26 18:53:57,034 - INFO - Generating random data for place request.
+2024-12-26 18:53:57,034 - INFO - Generated random value for place (30-60): 47
+2024-12-26 18:53:57,035 - INFO - Sending request to place API with value: 47
+2024-12-26 18:53:57,035 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/47
+2024-12-26 18:53:57,061 - INFO - Response: 200, {"id":47,"name":"가든이천공원","description":"이천 양평지역에서 사육된 한우 암소를 양질의 육질만을 엄선하여 구입한 후 주물럭, 생등심, 갈비 등으로 조리...
+2024-12-26 18:53:57,061 - INFO - Place request was successful.
+2024-12-26 18:53:57,218 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:57,218 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:57,219 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:57,219 - INFO - Generated random value for login: 97
+2024-12-26 18:53:57,219 - INFO - Preparing request body for row: ['hyeonui@example.net', 'Z@7F&i1h@5']
+2024-12-26 18:53:57,219 - INFO - Sending login request.
+2024-12-26 18:53:57,245 - INFO - 로그인 성공!
+2024-12-26 18:53:57,246 - INFO - Generating random data for place request.
+2024-12-26 18:53:57,246 - INFO - Generated random value for place (30-60): 35
+2024-12-26 18:53:57,246 - INFO - Sending request to place API with value: 35
+2024-12-26 18:53:57,246 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/35
+2024-12-26 18:53:57,274 - INFO - Response: 200, {"id":35,"name":"가덕도 연대봉","description":"가덕도는 부산에 속한 섬 중 가장 큰 섬으로 신석기시대부터 사람이 살았던 것으로 추정되며, 임진왜란과 일제...
+2024-12-26 18:53:57,275 - INFO - Place request was successful.
+2024-12-26 18:53:57,433 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:57,433 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:57,434 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:57,434 - INFO - Generated random value for login: 33
+2024-12-26 18:53:57,434 - INFO - Preparing request body for row: ['hyeonjeonggwag@example.com', '#zPFgcDF_7']
+2024-12-26 18:53:57,435 - INFO - Sending login request.
+2024-12-26 18:53:57,459 - INFO - 로그인 성공!
+2024-12-26 18:53:57,459 - INFO - Generating random data for place request.
+2024-12-26 18:53:57,459 - INFO - Generated random value for place (30-60): 50
+2024-12-26 18:53:57,459 - INFO - Sending request to place API with value: 50
+2024-12-26 18:53:57,459 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/50
+2024-12-26 18:53:57,487 - INFO - Response: 200, {"id":50,"name":"가든파티 계양점","description":"가든파티 계양점은 계양산 입구 계양문화회관, 계양산장미원 인근에 있다. 버스나 지하철 등의 대중교통 이용...
+2024-12-26 18:53:57,488 - INFO - Place request was successful.
+2024-12-26 18:53:57,675 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:57,675 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:57,676 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:57,676 - INFO - Generated random value for login: 92
+2024-12-26 18:53:57,676 - INFO - Preparing request body for row: ['junhyeogi@example.org', 'h8aMB14i+c']
+2024-12-26 18:53:57,676 - INFO - Sending login request.
+2024-12-26 18:53:57,699 - INFO - 로그인 성공!
+2024-12-26 18:53:57,699 - INFO - Generating random data for place request.
+2024-12-26 18:53:57,699 - INFO - Generated random value for place (1-179): 125
+2024-12-26 18:53:57,699 - INFO - Sending request to place API with value: 125
+2024-12-26 18:53:57,699 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/125
+2024-12-26 18:53:57,723 - INFO - Response: 200, {"id":125,"name":"가마솥에누룽지","description":"밀양 얼음골에 있는 백숙 맛집이다. 바로 뒤편이 계곡이고 계곡을 보며 평상에서 식사할 수 있다. 여름철에...
+2024-12-26 18:53:57,723 - INFO - Place request was successful.
+2024-12-26 18:53:57,900 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:57,900 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:57,901 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:57,901 - INFO - Generated random value for login: 33
+2024-12-26 18:53:57,902 - INFO - Preparing request body for row: ['hyeonjeonggwag@example.com', '#zPFgcDF_7']
+2024-12-26 18:53:57,902 - INFO - Sending login request.
+2024-12-26 18:53:57,925 - INFO - 로그인 성공!
+2024-12-26 18:53:57,925 - INFO - Generating random data for place request.
+2024-12-26 18:53:57,925 - INFO - Generated random value for place (30-60): 54
+2024-12-26 18:53:57,926 - INFO - Sending request to place API with value: 54
+2024-12-26 18:53:57,926 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/54
+2024-12-26 18:53:57,952 - INFO - Response: 200, {"id":54,"name":"가락관광호텔","description":"Unknown","placeThumbnail":null,"address":"서울특별시 송파구 송파대로32길"...
+2024-12-26 18:53:57,953 - INFO - Place request was successful.
+2024-12-26 18:53:58,109 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:58,109 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:58,110 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:58,110 - INFO - Generated random value for login: 105
+2024-12-26 18:53:58,110 - INFO - Preparing request body for row: ['seunghyeon10@example.com', '99odIx6$#!']
+2024-12-26 18:53:58,111 - INFO - Sending login request.
+2024-12-26 18:53:58,139 - INFO - 로그인 성공!
+2024-12-26 18:53:58,139 - INFO - Generating random data for place request.
+2024-12-26 18:53:58,139 - INFO - Generated random value for place (1-179): 114
+2024-12-26 18:53:58,140 - INFO - Sending request to place API with value: 114
+2024-12-26 18:53:58,140 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/114
+2024-12-26 18:53:58,167 - INFO - Response: 200, {"id":114,"name":"가마솥 솔뚜껑","description":"Unknown","placeThumbnail":"http://tong.visitkorea.or.kr/cm...
+2024-12-26 18:53:58,167 - INFO - Place request was successful.
+2024-12-26 18:53:58,349 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:58,349 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:58,350 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:58,350 - INFO - Generated random value for login: 107
+2024-12-26 18:53:58,350 - INFO - Preparing request body for row: ['sumin20@example.org', '(0CvlSk2r@']
+2024-12-26 18:53:58,350 - INFO - Sending login request.
+2024-12-26 18:53:58,374 - INFO - 로그인 성공!
+2024-12-26 18:53:58,374 - INFO - Generating random data for place request.
+2024-12-26 18:53:58,375 - INFO - Generated random value for place (30-60): 49
+2024-12-26 18:53:58,375 - INFO - Sending request to place API with value: 49
+2024-12-26 18:53:58,375 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/49
+2024-12-26 18:53:58,401 - INFO - Response: 200, {"id":49,"name":"가든파이브라이프(Garden5life)","description":"가든파이브라이프(Garden5life)는 단순한 쇼핑공간이 아니라 거대한 문화복합...
+2024-12-26 18:53:58,401 - INFO - Place request was successful.
+2024-12-26 18:53:58,586 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:58,586 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:58,587 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:58,587 - INFO - Generated random value for login: 8
+2024-12-26 18:53:58,587 - INFO - Preparing request body for row: ['yeji70@example.org', '(fIexXH!40']
+2024-12-26 18:53:58,588 - INFO - Sending login request.
+2024-12-26 18:53:58,641 - INFO - 로그인 성공!
+2024-12-26 18:53:58,641 - INFO - Generating random data for place request.
+2024-12-26 18:53:58,641 - INFO - Generated random value for place (30-60): 44
+2024-12-26 18:53:58,641 - INFO - Sending request to place API with value: 44
+2024-12-26 18:53:58,641 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/44
+2024-12-26 18:53:58,667 - INFO - Response: 200, {"id":44,"name":"가드니아 제빵소 본점","description":"﻿ 가드니아 제빵소 본점은 구리시 사노동에 있는 베이커리 카페이다. 자차 이용 시 내비게이션을 구리...
+2024-12-26 18:53:58,667 - INFO - Place request was successful.
+2024-12-26 18:53:58,907 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:58,907 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:58,908 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:58,908 - INFO - Generated random value for login: 79
+2024-12-26 18:53:58,909 - INFO - Preparing request body for row: ['byeongceolgim@example.net', '+$8NXukeKE']
+2024-12-26 18:53:58,909 - INFO - Sending login request.
+2024-12-26 18:53:58,937 - INFO - 로그인 성공!
+2024-12-26 18:53:58,937 - INFO - Generating random data for place request.
+2024-12-26 18:53:58,937 - INFO - Generated random value for place (1-179): 91
+2024-12-26 18:53:58,937 - INFO - Sending request to place API with value: 91
+2024-12-26 18:53:58,937 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/91
+2024-12-26 18:53:58,962 - INFO - Response: 200, {"id":91,"name":"가리봉시장","description":"1970~90년대 옛 가리봉의 모습을 간직하고 있는 1976년경 개설된 재래시장으로, 현재는 인근에 거주하는 ...
+2024-12-26 18:53:58,963 - INFO - Place request was successful.
+2024-12-26 18:53:59,190 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:59,190 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:59,202 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:59,203 - INFO - Generated random value for login: 118
+2024-12-26 18:53:59,203 - INFO - Preparing request body for row: ['gimareum@example.net', '+^DYhx(1W5']
+2024-12-26 18:53:59,203 - INFO - Sending login request.
+2024-12-26 18:53:59,227 - INFO - 로그인 성공!
+2024-12-26 18:53:59,228 - INFO - Generating random data for place request.
+2024-12-26 18:53:59,228 - INFO - Generated random value for place (30-60): 37
+2024-12-26 18:53:59,228 - INFO - Sending request to place API with value: 37
+2024-12-26 18:53:59,228 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/37
+2024-12-26 18:53:59,256 - INFO - Response: 200, {"id":37,"name":"가덕도외양포전망대","description":"가덕도 외양포전망대는 가덕도 가장 안쪽 끝자락 마을인 외양포마을로 들어가는 언덕길에 조성된 전망대이다....
+2024-12-26 18:53:59,256 - INFO - Place request was successful.
+2024-12-26 18:53:59,459 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:59,460 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:59,460 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:59,460 - INFO - Generated random value for login: 131
+2024-12-26 18:53:59,460 - INFO - Preparing request body for row: ['jihun43@example.com', '6a7Vt*9J^0']
+2024-12-26 18:53:59,460 - INFO - Sending login request.
+2024-12-26 18:53:59,492 - INFO - 로그인 성공!
+2024-12-26 18:53:59,493 - INFO - Generating random data for place request.
+2024-12-26 18:53:59,493 - INFO - Generated random value for place (30-60): 51
+2024-12-26 18:53:59,493 - INFO - Sending request to place API with value: 51
+2024-12-26 18:53:59,493 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/51
+2024-12-26 18:53:59,518 - INFO - Response: 200, {"id":51,"name":"가든포레스트","description":"Unknown","placeThumbnail":"http://tong.visitkorea.or.kr/cms/...
+2024-12-26 18:53:59,518 - INFO - Place request was successful.
+2024-12-26 18:53:59,704 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:59,704 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:59,704 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:59,705 - INFO - Generated random value for login: 76
+2024-12-26 18:53:59,705 - INFO - Preparing request body for row: ['junyeong49@example.org', '4WIGWuI6!b']
+2024-12-26 18:53:59,705 - INFO - Sending login request.
+2024-12-26 18:53:59,728 - INFO - 로그인 성공!
+2024-12-26 18:53:59,728 - INFO - Generating random data for place request.
+2024-12-26 18:53:59,728 - INFO - Generated random value for place (30-60): 58
+2024-12-26 18:53:59,728 - INFO - Sending request to place API with value: 58
+2024-12-26 18:53:59,728 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/58
+2024-12-26 18:53:59,752 - INFO - Response: 200, {"id":58,"name":"가락수산시장","description":"가락동 농수산물 도매 시장 내에 있는 가락수산시장은 동부간선도로와 분당·수서 간 고속도로가 지나는 탄천 변 ...
+2024-12-26 18:53:59,753 - INFO - Place request was successful.
+2024-12-26 18:53:59,932 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:53:59,932 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:53:59,933 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:53:59,933 - INFO - Generated random value for login: 65
+2024-12-26 18:53:59,934 - INFO - Preparing request body for row: ['gimyeongceol@example.com', 'd(E8LA@r46']
+2024-12-26 18:53:59,934 - INFO - Sending login request.
+2024-12-26 18:53:59,962 - INFO - 로그인 성공!
+2024-12-26 18:53:59,962 - INFO - Generating random data for place request.
+2024-12-26 18:53:59,962 - INFO - Generated random value for place (30-60): 50
+2024-12-26 18:53:59,962 - INFO - Sending request to place API with value: 50
+2024-12-26 18:53:59,963 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/50
+2024-12-26 18:53:59,987 - INFO - Response: 200, {"id":50,"name":"가든파티 계양점","description":"가든파티 계양점은 계양산 입구 계양문화회관, 계양산장미원 인근에 있다. 버스나 지하철 등의 대중교통 이용...
+2024-12-26 18:53:59,987 - INFO - Place request was successful.
+2024-12-26 18:54:00,169 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:54:00,169 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:54:00,169 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:54:00,170 - INFO - Generated random value for login: 114
+2024-12-26 18:54:00,170 - INFO - Preparing request body for row: ['geonuhwang@example.net', '!+Qznjh1S0']
+2024-12-26 18:54:00,170 - INFO - Sending login request.
+2024-12-26 18:54:00,196 - INFO - 로그인 성공!
+2024-12-26 18:54:00,197 - INFO - Generating random data for place request.
+2024-12-26 18:54:00,197 - INFO - Generated random value for place (30-60): 39
+2024-12-26 18:54:00,197 - INFO - Sending request to place API with value: 39
+2024-12-26 18:54:00,197 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/39
+2024-12-26 18:54:00,223 - INFO - Response: 200, {"id":39,"name":"가덕산","description":"경기 제1봉인 화악산(1,468m)에서 동남쪽으로 뻗어 내린 능선상에 솟아있는 가덕산(858m)은 몽덕산과 북배산...
+2024-12-26 18:54:00,224 - INFO - Place request was successful.
+2024-12-26 18:54:00,398 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:54:00,398 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:54:00,399 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:54:00,399 - INFO - Generated random value for login: 28
+2024-12-26 18:54:00,399 - INFO - Preparing request body for row: ['myeongjai@example.net', 'qU3L6pbe)$']
+2024-12-26 18:54:00,399 - INFO - Sending login request.
+2024-12-26 18:54:00,433 - INFO - 로그인 성공!
+2024-12-26 18:54:00,433 - INFO - Generating random data for place request.
+2024-12-26 18:54:00,433 - INFO - Generated random value for place (30-60): 33
+2024-12-26 18:54:00,433 - INFO - Sending request to place API with value: 33
+2024-12-26 18:54:00,433 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/33
+2024-12-26 18:54:00,463 - INFO - Response: 200, {"id":33,"name":"가덕도","description":"Unknown","placeThumbnail":"http://tong.visitkorea.or.kr/cms/res...
+2024-12-26 18:54:00,463 - INFO - Place request was successful.
+2024-12-26 18:54:00,639 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:54:00,639 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:54:00,640 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:54:00,640 - INFO - Generated random value for login: 67
+2024-12-26 18:54:00,640 - INFO - Preparing request body for row: ['miyeong51@example.com', '*ZmiaS*hi7']
+2024-12-26 18:54:00,640 - INFO - Sending login request.
+2024-12-26 18:54:00,665 - INFO - 로그인 성공!
+2024-12-26 18:54:00,665 - INFO - Generating random data for place request.
+2024-12-26 18:54:00,666 - INFO - Generated random value for place (30-60): 40
+2024-12-26 18:54:00,666 - INFO - Sending request to place API with value: 40
+2024-12-26 18:54:00,666 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/40
+2024-12-26 18:54:00,690 - INFO - Response: 200, {"id":40,"name":"가덕한우정육점","description":"가덕한우정육점은 충청북도 청주시 상당구 남일면 두산리에 있다. 외관과 인테리어는 깔끔한 분위기다. 내부에는...
+2024-12-26 18:54:00,690 - INFO - Place request was successful.
+2024-12-26 18:54:00,865 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:54:00,865 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:54:00,866 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:54:00,866 - INFO - Generated random value for login: 130
+2024-12-26 18:54:00,866 - INFO - Preparing request body for row: ['iyeeun@example.net', 'v+U2MqKn^!']
+2024-12-26 18:54:00,866 - INFO - Sending login request.
+2024-12-26 18:54:00,892 - INFO - 로그인 성공!
+2024-12-26 18:54:00,892 - INFO - Generating random data for place request.
+2024-12-26 18:54:00,892 - INFO - Generated random value for place (30-60): 31
+2024-12-26 18:54:00,892 - INFO - Sending request to place API with value: 31
+2024-12-26 18:54:00,892 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/31
+2024-12-26 18:54:00,916 - INFO - Response: 200, {"id":31,"name":"가는곶 세화","description":"가는곶 세화는 제주특별자치도 제주시 구좌읍 세화리에 있다. ‘옆집으로 이사 가고 싶은 세화빵집’을 모토로 무...
+2024-12-26 18:54:00,917 - INFO - Place request was successful.
+2024-12-26 18:54:01,103 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:54:01,103 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:54:01,104 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:54:01,104 - INFO - Generated random value for login: 38
+2024-12-26 18:54:01,104 - INFO - Preparing request body for row: ['yeonghyi98@example.org', 'G%2U7Kyueg']
+2024-12-26 18:54:01,104 - INFO - Sending login request.
+2024-12-26 18:54:01,130 - INFO - 로그인 성공!
+2024-12-26 18:54:01,130 - INFO - Generating random data for place request.
+2024-12-26 18:54:01,130 - INFO - Generated random value for place (30-60): 56
+2024-12-26 18:54:01,130 - INFO - Sending request to place API with value: 56
+2024-12-26 18:54:01,131 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/56
+2024-12-26 18:54:01,158 - INFO - Response: 200, {"id":56,"name":"가락몰","description":"가락농수산물도매시장 옆 송파대로 변에 현대식 건물로 지어진 쇼핑센터이다. 총 7개 동으로 구성되었으며 판매동 지하...
+2024-12-26 18:54:01,158 - INFO - Place request was successful.
+2024-12-26 18:54:01,324 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:54:01,325 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:54:01,325 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:54:01,326 - INFO - Generated random value for login: 53
+2024-12-26 18:54:01,326 - INFO - Preparing request body for row: ['hongogja@example.net', 'ojOGzCog*0']
+2024-12-26 18:54:01,327 - INFO - Sending login request.
+2024-12-26 18:54:01,354 - INFO - 로그인 성공!
+2024-12-26 18:54:01,354 - INFO - Generating random data for place request.
+2024-12-26 18:54:01,354 - INFO - Generated random value for place (30-60): 51
+2024-12-26 18:54:01,355 - INFO - Sending request to place API with value: 51
+2024-12-26 18:54:01,355 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/51
+2024-12-26 18:54:01,380 - INFO - Response: 200, {"id":51,"name":"가든포레스트","description":"Unknown","placeThumbnail":"http://tong.visitkorea.or.kr/cms/...
+2024-12-26 18:54:01,380 - INFO - Place request was successful.
+2024-12-26 18:54:01,556 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:54:01,556 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:54:01,557 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:54:01,558 - INFO - Generated random value for login: 145
+2024-12-26 18:54:01,558 - INFO - Preparing request body for row: ['gimjeongsig@example.org', '0$$Of#PZ@f']
+2024-12-26 18:54:01,559 - INFO - Sending login request.
+2024-12-26 18:54:01,584 - INFO - 로그인 성공!
+2024-12-26 18:54:01,585 - INFO - Generating random data for place request.
+2024-12-26 18:54:01,585 - INFO - Generated random value for place (30-60): 54
+2024-12-26 18:54:01,585 - INFO - Sending request to place API with value: 54
+2024-12-26 18:54:01,585 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/54
+2024-12-26 18:54:01,612 - INFO - Response: 200, {"id":54,"name":"가락관광호텔","description":"Unknown","placeThumbnail":null,"address":"서울특별시 송파구 송파대로32길"...
+2024-12-26 18:54:01,612 - INFO - Place request was successful.
+2024-12-26 18:54:01,807 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:54:01,807 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:54:01,807 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:54:01,807 - INFO - Generated random value for login: 122
+2024-12-26 18:54:01,808 - INFO - Preparing request body for row: ['wbag@example.org', 'j)2Hg$XAyD']
+2024-12-26 18:54:01,808 - INFO - Sending login request.
+2024-12-26 18:54:01,831 - INFO - 로그인 성공!
+2024-12-26 18:54:01,831 - INFO - Generating random data for place request.
+2024-12-26 18:54:01,831 - INFO - Generated random value for place (1-179): 69
+2024-12-26 18:54:01,831 - INFO - Sending request to place API with value: 69
+2024-12-26 18:54:01,831 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/69
+2024-12-26 18:54:01,858 - INFO - Response: 200, {"id":69,"name":"가람문학관","description":"Unknown","placeThumbnail":"http://tong.visitkorea.or.kr/cms/r...
+2024-12-26 18:54:01,858 - INFO - Place request was successful.
+2024-12-26 18:54:02,027 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:54:02,027 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:54:02,027 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:54:02,027 - INFO - Generated random value for login: 126
+2024-12-26 18:54:02,027 - INFO - Preparing request body for row: ['ujin18@example.net', 'O^6$h7&l+K']
+2024-12-26 18:54:02,028 - INFO - Sending login request.
+2024-12-26 18:54:02,054 - INFO - 로그인 성공!
+2024-12-26 18:54:02,055 - INFO - Generating random data for place request.
+2024-12-26 18:54:02,055 - INFO - Generated random value for place (30-60): 58
+2024-12-26 18:54:02,055 - INFO - Sending request to place API with value: 58
+2024-12-26 18:54:02,056 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/58
+2024-12-26 18:54:02,086 - INFO - Response: 200, {"id":58,"name":"가락수산시장","description":"가락동 농수산물 도매 시장 내에 있는 가락수산시장은 동부간선도로와 분당·수서 간 고속도로가 지나는 탄천 변 ...
+2024-12-26 18:54:02,087 - INFO - Place request was successful.
+2024-12-26 18:54:02,304 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:54:02,304 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:54:02,304 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:54:02,305 - INFO - Generated random value for login: 64
+2024-12-26 18:54:02,305 - INFO - Preparing request body for row: ['cgim@example.com', '#i(5CCepVw']
+2024-12-26 18:54:02,305 - INFO - Sending login request.
+2024-12-26 18:54:02,333 - INFO - 로그인 성공!
+2024-12-26 18:54:02,333 - INFO - Generating random data for place request.
+2024-12-26 18:54:02,334 - INFO - Generated random value for place (30-60): 56
+2024-12-26 18:54:02,334 - INFO - Sending request to place API with value: 56
+2024-12-26 18:54:02,334 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/56
+2024-12-26 18:54:02,361 - INFO - Response: 200, {"id":56,"name":"가락몰","description":"가락농수산물도매시장 옆 송파대로 변에 현대식 건물로 지어진 쇼핑센터이다. 총 7개 동으로 구성되었으며 판매동 지하...
+2024-12-26 18:54:02,362 - INFO - Place request was successful.
+2024-12-26 18:54:02,587 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:54:02,587 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:54:02,588 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:54:02,588 - INFO - Generated random value for login: 113
+2024-12-26 18:54:02,588 - INFO - Preparing request body for row: ['jinho68@example.com', 'nt42hNy0*!']
+2024-12-26 18:54:02,589 - INFO - Sending login request.
+2024-12-26 18:54:02,615 - INFO - 로그인 성공!
+2024-12-26 18:54:02,616 - INFO - Generating random data for place request.
+2024-12-26 18:54:02,616 - INFO - Generated random value for place (30-60): 39
+2024-12-26 18:54:02,616 - INFO - Sending request to place API with value: 39
+2024-12-26 18:54:02,616 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/39
+2024-12-26 18:54:02,642 - INFO - Response: 200, {"id":39,"name":"가덕산","description":"경기 제1봉인 화악산(1,468m)에서 동남쪽으로 뻗어 내린 능선상에 솟아있는 가덕산(858m)은 몽덕산과 북배산...
+2024-12-26 18:54:02,642 - INFO - Place request was successful.
+2024-12-26 18:54:02,921 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:54:02,921 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:54:02,922 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:54:02,922 - INFO - Generated random value for login: 71
+2024-12-26 18:54:02,922 - INFO - Preparing request body for row: ['jihyeongang@example.com', '%$NGP)Sh*0']
+2024-12-26 18:54:02,922 - INFO - Sending login request.
+2024-12-26 18:54:02,952 - INFO - 로그인 성공!
+2024-12-26 18:54:02,952 - INFO - Generating random data for place request.
+2024-12-26 18:54:02,952 - INFO - Generated random value for place (1-179): 136
+2024-12-26 18:54:02,953 - INFO - Sending request to place API with value: 136
+2024-12-26 18:54:02,953 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/136
+2024-12-26 18:54:02,980 - INFO - Response: 200, {"id":136,"name":"가메창(암메)","description":"저지오름 남서쪽 기슭 자락 도로변에 가마솥 모양으로 패여 있는 원형 분화구를 품고 있는 자그마한 오름이다...
+2024-12-26 18:54:02,981 - INFO - Place request was successful.
+2024-12-26 18:54:03,139 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:54:03,139 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:54:03,140 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:54:03,140 - INFO - Generated random value for login: 127
+2024-12-26 18:54:03,140 - INFO - Preparing request body for row: ['siu89@example.org', '@30CYpp6t8']
+2024-12-26 18:54:03,140 - INFO - Sending login request.
+2024-12-26 18:54:03,167 - INFO - 로그인 성공!
+2024-12-26 18:54:03,168 - INFO - Generating random data for place request.
+2024-12-26 18:54:03,168 - INFO - Generated random value for place (30-60): 60
+2024-12-26 18:54:03,168 - INFO - Sending request to place API with value: 60
+2024-12-26 18:54:03,168 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/60
+2024-12-26 18:54:03,197 - INFO - Response: 200, {"id":60,"name":"가락청","description":"Unknown","placeThumbnail":null,"address":"전북특별자치도 전주시 완산구 한지길",...
+2024-12-26 18:54:03,197 - INFO - Place request was successful.
+2024-12-26 18:54:03,390 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:54:03,390 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:54:03,391 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:54:03,391 - INFO - Generated random value for login: 128
+2024-12-26 18:54:03,392 - INFO - Preparing request body for row: ['ccoe@example.net', '@WHiSN70^8']
+2024-12-26 18:54:03,392 - INFO - Sending login request.
+2024-12-26 18:54:03,421 - INFO - 로그인 성공!
+2024-12-26 18:54:03,421 - INFO - Generating random data for place request.
+2024-12-26 18:54:03,421 - INFO - Generated random value for place (1-179): 143
+2024-12-26 18:54:03,421 - INFO - Sending request to place API with value: 143
+2024-12-26 18:54:03,421 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/143
+2024-12-26 18:54:03,449 - INFO - Response: 200, {"id":143,"name":"가미우동","description":"일본인 오너셰프가 요리하는 집이다. 서울특별시 마포구에 있는 일식전문점이다. 대표메뉴는 우동이다.","plac...
+2024-12-26 18:54:03,449 - INFO - Place request was successful.
+2024-12-26 18:54:03,627 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:54:03,627 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:54:03,628 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:54:03,628 - INFO - Generated random value for login: 16
+2024-12-26 18:54:03,628 - INFO - Preparing request body for row: ['oi@example.com', ')f8sJgPj%P']
+2024-12-26 18:54:03,628 - INFO - Sending login request.
+2024-12-26 18:54:03,652 - INFO - 로그인 성공!
+2024-12-26 18:54:03,652 - INFO - Generating random data for place request.
+2024-12-26 18:54:03,652 - INFO - Generated random value for place (30-60): 57
+2024-12-26 18:54:03,652 - INFO - Sending request to place API with value: 57
+2024-12-26 18:54:03,652 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/57
+2024-12-26 18:54:03,680 - INFO - Response: 200, {"id":57,"name":"가락몰 빵축제 전국빵지자랑","description":"Unknown","placeThumbnail":"http://tong.visitkorea.or...
+2024-12-26 18:54:03,680 - INFO - Place request was successful.
+2024-12-26 18:54:03,837 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:54:03,838 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:54:03,838 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:54:03,838 - INFO - Generated random value for login: 85
+2024-12-26 18:54:03,838 - INFO - Preparing request body for row: ['junho60@example.org', '@b7Hu1+sx9']
+2024-12-26 18:54:03,839 - INFO - Sending login request.
+2024-12-26 18:54:03,865 - INFO - 로그인 성공!
+2024-12-26 18:54:03,865 - INFO - Generating random data for place request.
+2024-12-26 18:54:03,865 - INFO - Generated random value for place (30-60): 30
+2024-12-26 18:54:03,866 - INFO - Sending request to place API with value: 30
+2024-12-26 18:54:03,866 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/30
+2024-12-26 18:54:03,891 - INFO - Response: 200, {"id":30,"name":"가넷옴므","description":"Unknown","placeThumbnail":"http://tong.visitkorea.or.kr/cms/re...
+2024-12-26 18:54:03,891 - INFO - Place request was successful.
+2024-12-26 18:54:04,048 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:54:04,048 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:54:04,048 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:54:04,048 - INFO - Generated random value for login: 34
+2024-12-26 18:54:04,049 - INFO - Preparing request body for row: ['seunghyeon34@example.com', '!I5DYtd%2C']
+2024-12-26 18:54:04,049 - INFO - Sending login request.
+2024-12-26 18:54:04,082 - INFO - 로그인 성공!
+2024-12-26 18:54:04,083 - INFO - Generating random data for place request.
+2024-12-26 18:54:04,083 - INFO - Generated random value for place (30-60): 56
+2024-12-26 18:54:04,083 - INFO - Sending request to place API with value: 56
+2024-12-26 18:54:04,083 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/56
+2024-12-26 18:54:04,111 - INFO - Response: 200, {"id":56,"name":"가락몰","description":"가락농수산물도매시장 옆 송파대로 변에 현대식 건물로 지어진 쇼핑센터이다. 총 7개 동으로 구성되었으며 판매동 지하...
+2024-12-26 18:54:04,111 - INFO - Place request was successful.
+2024-12-26 18:54:04,291 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:54:04,292 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:54:04,305 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:54:04,305 - INFO - Generated random value for login: 6
+2024-12-26 18:54:04,305 - INFO - Preparing request body for row: ['mang.gee97@gmail.com', '121212']
+2024-12-26 18:54:04,306 - INFO - Sending login request.
+2024-12-26 18:54:04,336 - INFO - 로그인 성공!
+2024-12-26 18:54:04,336 - INFO - Generating random data for place request.
+2024-12-26 18:54:04,336 - INFO - Generated random value for place (30-60): 46
+2024-12-26 18:54:04,336 - INFO - Sending request to place API with value: 46
+2024-12-26 18:54:04,337 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/46
+2024-12-26 18:54:04,364 - INFO - Response: 200, {"id":46,"name":"가든세계평화","description":"가든세계평화는 경상북도 청송군 진보면 신촌리에 있다. 세월의 흔적이 엿보이는 외관과 고풍스러운 분위기를 연출...
+2024-12-26 18:54:04,365 - INFO - Place request was successful.
+2024-12-26 18:54:04,521 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:54:04,521 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:54:04,522 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:54:04,522 - INFO - Generated random value for login: 39
+2024-12-26 18:54:04,522 - INFO - Preparing request body for row: ['seongjin66@example.org', 'Vk@2Od9wGJ']
+2024-12-26 18:54:04,522 - INFO - Sending login request.
+2024-12-26 18:54:04,545 - INFO - 로그인 성공!
+2024-12-26 18:54:04,545 - INFO - Generating random data for place request.
+2024-12-26 18:54:04,546 - INFO - Generated random value for place (1-179): 79
+2024-12-26 18:54:04,546 - INFO - Sending request to place API with value: 79
+2024-12-26 18:54:04,546 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/79
+2024-12-26 18:54:04,573 - INFO - Response: 200, {"id":79,"name":"가래골캠핑장","description":"가래골농원 캠핑장은 포천시 창수면에 위치한 종현산 자락에 있다.  총면적 148,000m² 달하는 대지에 가...
+2024-12-26 18:54:04,574 - INFO - Place request was successful.
+2024-12-26 18:54:04,731 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:54:04,731 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:54:04,732 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:54:04,732 - INFO - Generated random value for login: 35
+2024-12-26 18:54:04,733 - INFO - Preparing request body for row: ['seonghuni@example.org', 'E2*UJ%R5!v']
+2024-12-26 18:54:04,733 - INFO - Sending login request.
+2024-12-26 18:54:04,757 - INFO - 로그인 성공!
+2024-12-26 18:54:04,757 - INFO - Generating random data for place request.
+2024-12-26 18:54:04,758 - INFO - Generated random value for place (30-60): 31
+2024-12-26 18:54:04,758 - INFO - Sending request to place API with value: 31
+2024-12-26 18:54:04,758 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/31
+2024-12-26 18:54:04,786 - INFO - Response: 200, {"id":31,"name":"가는곶 세화","description":"가는곶 세화는 제주특별자치도 제주시 구좌읍 세화리에 있다. ‘옆집으로 이사 가고 싶은 세화빵집’을 모토로 무...
+2024-12-26 18:54:04,786 - INFO - Place request was successful.
+2024-12-26 18:54:04,936 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:54:04,937 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:54:04,937 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:54:04,937 - INFO - Generated random value for login: 47
+2024-12-26 18:54:04,938 - INFO - Preparing request body for row: ['pgim@example.com', '!Vrfq0Zb*0']
+2024-12-26 18:54:04,938 - INFO - Sending login request.
+2024-12-26 18:54:04,970 - INFO - 로그인 성공!
+2024-12-26 18:54:04,971 - INFO - Generating random data for place request.
+2024-12-26 18:54:04,971 - INFO - Generated random value for place (30-60): 43
+2024-12-26 18:54:04,971 - INFO - Sending request to place API with value: 43
+2024-12-26 18:54:04,971 - INFO - Sending GET request to URL: http://52.79.199.83:9090/api/v1/place/43
+2024-12-26 18:54:04,997 - INFO - Response: 200, {"id":43,"name":"가드너스","description":"가드너스는 경기도 파주시 헤이리 예술마을에 위치한 대형 베이커리 카페이다. 외관 및 내부에서 모던한 분위기를 느...
+2024-12-26 18:54:04,997 - INFO - Place request was successful.
+2024-12-26 18:54:05,170 - INFO - Reading login data from CSV and preparing request parameters.
+2024-12-26 18:54:05,170 - INFO - Reading CSV file: utils/place/user_data.csv
+2024-12-26 18:54:05,171 - INFO - Loaded 341 rows from the CSV file.
+2024-12-26 18:54:05,171 - INFO - Generated random value for login: 108
+2024-12-26 18:54:05,171 - INFO - Preparing request body for row: ['yujin36@example.com', '^BFqOqZo#0']
+2024-12-26 18:54:05,171 - INFO - Sending login request.
