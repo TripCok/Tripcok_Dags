@@ -22,7 +22,7 @@ with DAG(
     )
 
     spark_host = V.get('spark_host', 'localhost')
-    log_cleansing_command = f"""ssh -i ~/.ssh/spark_key ubuntu@{spark_host} /home/ubuntu/spark/bin/spark-submit /home/ubuntu/etl/py/common/LogsCleansing.py --bucket tripcok --folder topics/tripcok --date {{ ds }}"""
+    log_cleansing_command = f"""ssh -i ~/.ssh/spark_key.pem ubuntu@{spark_host} /home/ubuntu/spark/bin/spark-submit /home/ubuntu/etl/py/common/LogsCleansing.py --bucket tripcok --folder topics/tripcok --date {{ ds }}"""
 
     log_cleansing_task = BashOperator(
         task_id='log_cleansing_task',
