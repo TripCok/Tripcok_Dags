@@ -93,4 +93,4 @@ with DAG(
         provide_context=True,
     )
 
-    auto_work_register_login_task >> auto_work_group_task >> auto_work_group_join_task >> auto_work_board_task
+    auto_work_register_login_task >> auto_work_group_task >> auto_work_group_join_task >> auto_work_board_task >> auto_work_group_place_task
