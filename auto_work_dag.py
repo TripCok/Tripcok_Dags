@@ -8,7 +8,7 @@ from utils.autowork_board_v2 import AutoWorkBoard
 from utils.autowork_register_login import AutoWorkByLoginRegister
 from utils.autowork_group import AutoWorkByGroup
 from utils.autowork_group_join import AutoWorkByGroupJoin
-
+from utils.place.place_auto import run_place_api
 with DAG(
         dag_id='auto_work_dag',
         default_args={
@@ -84,5 +84,13 @@ with DAG(
         provide_context=True,
     )
 
+    def run_auto_work_pdddlace_task(**kwargs):
+        run_place_api()
+
+    auto_work_group_place_task = PythonOperator(
+        task_id="auto_workd_group_place_task",
+        python_callable=run_auto_work_group_place_task,
+        provide_context=True,
+    )
 
     auto_work_register_login_task >> auto_work_group_task >> auto_work_group_join_task >> auto_work_board_task
