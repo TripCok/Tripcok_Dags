@@ -21,10 +21,8 @@ with DAG(
         bash_command='echo "DAG 시작: 데이터 처리 작업 시작!"'  # Bash 명령어
     )
 
-    spark_host = V.get('spark_host', 'localhost')
-
-    log_cleansing_command = f"""
-    sudo ssh -i ~/.ssh/spark_key.pem ubuntu@{spark_host} '
+    log_cleansing_command = """
+    sudo ssh -i ~/.ssh/spark_key.pem ubuntu@{{ params.spark_host }} '
         bash /home/ubuntu/etl/py/common/environ.sh && \
         /home/ubuntu/spark/bin/spark-submit \
         /home/ubuntu/etl/py/common/LogsCleansing.py \
@@ -35,6 +33,7 @@ with DAG(
     log_cleansing_task = BashOperator(
         task_id='log_cleansing_task',
         bash_command=log_cleansing_command,  # 템플릿 문자열로 처리됨
+        params={'spark_host': V.get('spark_host', 'localhost')},
     )
 
     # 종료 태스크: BashOperator로 종료 신호 출력
