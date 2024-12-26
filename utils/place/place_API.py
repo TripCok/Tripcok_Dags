@@ -57,7 +57,7 @@ def place_random():
     return random_value
 
 if __name__ == "__main__":
-    login_csv_file = "utils/place/user_data.csv"
+    login_csv_file = "/home/ubuntu/airflow/dags/utils/place/user_data.csv"
     login_api_url = "http://52.79.199.83:9090/api/v1/member/login"
 
     # 세션 객체 생성
