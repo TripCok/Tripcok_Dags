@@ -22,9 +22,9 @@ with DAG(
     )
 
     spark_host = V.get('spark_host', 'localhost')
-    ds = "{{ ds }}"
-    log_cleansing_command = """
-    sudo ssh -i ~/.ssh/spark_key.pem ubuntu@{{ spark_host }} '
+
+    log_cleansing_command = f"""
+    sudo ssh -i ~/.ssh/spark_key.pem ubuntu@{spark_host} '
         bash /home/ubuntu/etl/py/common/environ.sh && \
         /home/ubuntu/spark/bin/spark-submit \
         /home/ubuntu/etl/py/common/LogsCleansing.py \
