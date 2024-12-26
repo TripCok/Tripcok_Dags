@@ -10,7 +10,6 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',  # 로그 포맷
     handlers=[
         logging.StreamHandler(),  # 콘솔에 로그 출력
-        logging.FileHandler('app.log')  # 파일에도 로그 기록 (app.log)
     ]
 )
 
