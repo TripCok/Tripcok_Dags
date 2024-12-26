@@ -84,7 +84,7 @@ with DAG(
         provide_context=True,
     )
 
-    def run_auto_work_pdddlace_task(**kwargs):
+    def run_auto_work_group_place_task(**kwargs):
         run_place_api()
 
     auto_work_group_place_task = PythonOperator(
