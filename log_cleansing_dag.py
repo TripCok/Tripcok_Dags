@@ -25,7 +25,7 @@ with DAG(
     log_cleansing_command = f"""
         ssh -i ~/.ssh/spark_key ubuntu@{spark_host} '
         source ~/.bashrc && \
-        python /home/ubuntu/etl/py/common/LogsCleansing.py --bucket tripcok --folder topics/tripcok --date {{ ds }}
+        $SPARK_HOME /home/ubuntu/etl/py/common/LogsCleansing.py --bucket tripcok --folder topics/tripcok --date {{ ds }}
         '
     """
 
