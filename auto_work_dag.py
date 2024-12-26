@@ -3,6 +3,7 @@ from datetime import timedelta, datetime
 from airflow import DAG
 from airflow.models import Variable as V
 from airflow.operators.python import PythonOperator
+from airflow.operators.bash_operator import BashOperator
 
 from utils.autowork_board_v2 import AutoWorkBoard
 from utils.autowork_register_login import AutoWorkByLoginRegister
@@ -84,13 +85,9 @@ with DAG(
         provide_context=True,
     )
 
-    def run_auto_work_group_place_task(**kwargs):
-        run_place_api()
-
-    auto_work_group_place_task = PythonOperator(
+    auto_work_group_place_task = BashOperator(
         task_id="auto_workd_group_place_task",
-        python_callable=run_auto_work_group_place_task,
-        provide_context=True,
+        bash_command="python /home/ubuntu/airflow/dags/utils/place/place_auto.py",
     )
 
     auto_work_register_login_task >> auto_work_group_task >> auto_work_group_join_task >> auto_work_board_task >> auto_work_group_place_task
