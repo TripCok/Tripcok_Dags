@@ -2,7 +2,7 @@ import csv
 import requests
 import random
 import logging
-from user_API import UserAPI
+#from user_API import UserAPI
 
 # 로그 설정
 logging.basicConfig(
