@@ -54,7 +54,7 @@ def place_random():
 
 if __name__ == "__main__":
     login_csv_file = "/home/ubuntu/airflow/dags/utils/place/user_data.csv"
-    login_api_url = "http://{server_host}:{server_port}/api/v1/member/login"
+    login_api_url = "http://172.31.13.98:9090/api/v1/member/login"
 
     # 세션 객체 생성
     session = requests.Session()
@@ -76,7 +76,7 @@ if __name__ == "__main__":
     logging.info("Generating random data for place request.")
     random_data = place_random()
     
-    place_api_url = f"http://{server_host}:{server_port}/api/v1/place/{random_data}"
+    place_api_url = f"http://172.31.13.98:9090/api/v1/place/{random_data}"
     
     logging.info(f"Sending request to place API with value: {random_data}")
     # API 요청
