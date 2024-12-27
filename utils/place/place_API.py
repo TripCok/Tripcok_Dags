@@ -48,17 +48,13 @@ def login_random():
 
 ### 특정 값의 확률을 설정한 랜덤 값 반환
 def place_random():
-    if random.random() < 0.7:
-        random_value = random.randint(30, 60)
-        logging.info(f"Generated random value for place (30-60): {random_value}")
-    else:
-        random_value = random.randint(1, 179)
-        logging.info(f"Generated random value for place (1-179): {random_value}")
+    random_value = random.randint(1, 30000)
+    logging.info(f"Generated random value for place (1-179): {random_value}")
     return random_value
 
 if __name__ == "__main__":
     login_csv_file = "/home/ubuntu/airflow/dags/utils/place/user_data.csv"
-    login_api_url = "http://52.79.199.83:9090/api/v1/member/login"
+    login_api_url = "http://{server_host}:{server_port}/api/v1/member/login"
 
     # 세션 객체 생성
     session = requests.Session()
@@ -79,8 +75,8 @@ if __name__ == "__main__":
 
     logging.info("Generating random data for place request.")
     random_data = place_random()
-
-    place_api_url = f"http://52.79.199.83:9090/api/v1/place/{random_data}"
+    
+    place_api_url = f"http://{server_host}:{server_port}/api/v1/place/{random_data}"
     
     logging.info(f"Sending request to place API with value: {random_data}")
     # API 요청
