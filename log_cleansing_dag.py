@@ -23,13 +23,13 @@ with DAG(
 
     log_cleansing_command = """
     sudo ssh -i ~/.ssh/spark_key.pem ubuntu@{{ params.spark_host }} '
-        bash /home/ubuntu/etl/py/common/environ.sh && \
+        bash -c "source /home/ubuntu/env/environ.sh && \
         /home/ubuntu/spark/bin/spark-submit \
         /home/ubuntu/etl/py/common/LogsCleansing.py \
         --bucket tripcok --folder topics/tripcok --date {{ ds }}
+        "
     '
     """
-
     log_cleansing_task = BashOperator(
         task_id='log_cleansing_task',
         bash_command=log_cleansing_command,  # 템플릿 문자열로 처리됨
