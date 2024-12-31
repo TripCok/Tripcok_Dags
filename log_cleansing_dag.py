@@ -35,6 +35,22 @@ with DAG(
         bash_command=log_cleansing_command,  # 템플릿 문자열로 처리됨
         params={'spark_host': V.get('spark_host', 'localhost')},
     )
+    
+    member_place_recommend_command ="""
+    sudo ssh -i ~/.ssh/spark_key.pem ubuntu@{{ params.spark_host }} '
+        bash -c "source /home/ubuntu/env/environ.sh && \
+        /home/ubuntu/spark/bin/spark-submit \
+        /home/ubuntu/etl/py/place_get/MemberPlaceRecommend.py \
+        --date {{ ds }}
+        "
+    '
+    """
+
+    member_recommend_task = BashOperator(
+        task_id='member_recommend_task',
+        bash_command=member_place_recommend_command,
+        params={'spark_host': V.get('spark_host', 'localhost')},
+    )
 
     # 종료 태스크: BashOperator로 종료 신호 출력
     end_task = BashOperator(
@@ -43,4 +59,4 @@ with DAG(
     )
 
     # 태스크 순서 정의
-    start_task >> log_cleansing_task >> end_task
+    start_task >> log_cleansing_task >> member_recommend_task >> end_task
