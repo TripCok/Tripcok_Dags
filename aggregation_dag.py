@@ -47,7 +47,7 @@ with DAG(
             bash_command=f"""
                 sudo ssh -i ~/.ssh/spark_key.pem ubuntu@{{{{ params.spark_host }}}} '
                     bash -c "source /home/ubuntu/env/environ.sh && \
-                    {spark_home} /home/ubuntu/etl/py/Aggregation/{file} --date {{ ds }}"
+                    {spark_home} /home/ubuntu/etl/py/Aggregation/{file} --date {{{{ ds }}}}"
                 '
                 """,
             params={'spark_host': V.get('spark_host', 'localhost')},
