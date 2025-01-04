@@ -11,7 +11,7 @@ with DAG(
             'retries': 1,
             'retry_delay': timedelta(minutes=5),
         },
-        schedule='@daily',
+        schedule='0 15 * * *',
         start_date=datetime(2024, 12, 25),
         catchup=False,
 ) as dag:
@@ -35,8 +35,8 @@ with DAG(
         bash_command=log_cleansing_command,  # 템플릿 문자열로 처리됨
         params={'spark_host': V.get('spark_host', 'localhost')},
     )
-    
-    member_place_recommend_command ="""
+
+    member_place_recommend_command = """
     sudo ssh -i ~/.ssh/spark_key.pem ubuntu@{{ params.spark_host }} '
         bash -c "source /home/ubuntu/env/environ.sh && \
         /home/ubuntu/spark/bin/spark-submit \
