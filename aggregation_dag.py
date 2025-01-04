@@ -5,7 +5,7 @@ from airflow.models import Variable as V
 
 # DAG 정의
 with DAG(
-        dag_id='log_cleansing_dag',
+        dag_id='aggregation_dag',
         default_args={
             'owner': 'airflow',
             'retries': 1,
