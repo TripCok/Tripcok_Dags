@@ -11,7 +11,7 @@ with DAG(
             'retries': 1,
             'retry_delay': timedelta(minutes=5),
         },
-        schedule='* 15 * * *',
+        schedule='2 15 * * *',
         start_date=datetime(2024, 12, 25),
         catchup=False,
 ) as dag:
