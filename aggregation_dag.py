@@ -16,7 +16,6 @@ with DAG(
         start_date=datetime(2024, 12, 25),
         catchup=False,
 ) as dag:
-
     # 이전 Dag 동작 감지 Task
     wait_for_log_cleansing = ExternalTaskSensor(
         task_id='wait_for_log_cleansing_task',
@@ -47,7 +46,7 @@ with DAG(
             task_id=f'{file.replace(".py", "")}_task',
             bash_command=f"""
                 sudo ssh -i ~/.ssh/spark_key.pem ubuntu@{{{{ params.spark_host }}}} '
-                    bash /home/ubuntu/etl/py/common/environ.sh && \
+                    bash -c source /home/ubuntu/env/environ.sh && \
                     {spark_home} /home/ubuntu/etl/py/aggregation/{file} \
                     --date {{{{ ds }}}}
                 '
