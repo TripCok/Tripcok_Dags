@@ -14,7 +14,7 @@ with DAG(
         },
         schedule='2 15 * * *',
         start_date=datetime(2024, 12, 25),
-        catchup=False,
+        catchup=True,
 ) as dag:
     # 이전 Dag 동작 감지 Task
     wait_for_log_cleansing = ExternalTaskSensor(
