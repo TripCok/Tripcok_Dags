@@ -46,9 +46,8 @@ with DAG(
             task_id=f'{file.replace(".py", "")}_task',
             bash_command=f"""
                 sudo ssh -i ~/.ssh/spark_key.pem ubuntu@{{{{ params.spark_host }}}} '
-                    bash -c source /home/ubuntu/env/environ.sh && \
-                    {spark_home} /home/ubuntu/etl/py/aggregation/{file} \
-                    --date {{{{ ds }}}}
+                    bash -c "source /home/ubuntu/env/environ.sh && \
+                    {spark_home} /home/ubuntu/etl/py/aggregation/{file} --date {{ ds }}"
                 '
                 """,
             params={'spark_host': V.get('spark_host', 'localhost')},
