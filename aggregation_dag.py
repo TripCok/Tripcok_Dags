@@ -2,6 +2,7 @@ from airflow import DAG
 from airflow.operators.bash import BashOperator
 from datetime import datetime, timedelta
 from airflow.models import Variable as V
+from airflow.sensors.external_task import ExternalTaskSensor
 
 # DAG 정의
 with DAG(
@@ -15,6 +16,18 @@ with DAG(
         start_date=datetime(2024, 12, 25),
         catchup=False,
 ) as dag:
+
+    # 이전 Dag 동작 감지 Task
+    wait_for_log_cleansing = ExternalTaskSensor(
+        task_id='wait_for_log_cleansing_task',
+        external_dag_id='log_cleansing_dag',
+        external_task_id='end_task',
+        allowed_states=['success'],
+        execution_date_fn=lambda dt: dt,
+        mode='poke',
+        timeout=3600,
+    )
+
     # 시작 태스크: BashOperator로 시작 신호 출력
     start_task = BashOperator(
         task_id='start_task',
@@ -43,7 +56,9 @@ with DAG(
         )
         aggregation_tasks.append(task)
 
-end_task = BashOperator(
-    task_id='start_task',
-    bash_command='echo "DAG 종료: 집계 ETL 시작"'
-)
+    end_task = BashOperator(
+        task_id='end_task',
+        bash_command='echo "DAG 종료: 집계 ETL 완료"'
+    )
+
+    wait_for_log_cleansing >> start_task >> aggregation_tasks >> end_task
