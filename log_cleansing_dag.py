@@ -13,7 +13,7 @@ with DAG(
         },
         schedule='@daily',
         start_date=datetime(2024, 12, 25),
-        catchup=False,
+        catchup=True,
 ) as dag:
     # 시작 태스크: BashOperator로 시작 신호 출력
     start_task = BashOperator(
