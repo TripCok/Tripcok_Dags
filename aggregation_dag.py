@@ -22,7 +22,7 @@ with DAG(
         external_dag_id='log_cleansing_dag',
         external_task_id='end_task',
         allowed_states=['success'],
-        execution_date_fn=lambda dt: dt,
+        execution_date_fn=lambda dt: dt - timedelta(minutes=2),
         mode='poke',
         timeout=3600,
     )
